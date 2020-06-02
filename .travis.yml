@@ -1,11 +1,10 @@
 language: node_js
 sudo: true
 arch:
+  - amd64
   - arm64
 node_js:
   - "12"
-  - "10"
-  - "8"
 install:
   - npm i
 script:
